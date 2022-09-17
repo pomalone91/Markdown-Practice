@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		255A09B528D56F2B00DA84BE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255A09B428D56F2B00DA84BE /* main.swift */; };
+		255A09BC28D620BE00DA84BE /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255A09BB28D620BE00DA84BE /* Block.swift */; };
+		255A09BE28D620C900DA84BE /* Fragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255A09BD28D620C900DA84BE /* Fragment.swift */; };
+		255A09C028D620E500DA84BE /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255A09BF28D620E500DA84BE /* Document.swift */; };
+		255A09C228D6219000DA84BE /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255A09C128D6219000DA84BE /* Element.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		255A09B128D56F2B00DA84BE /* Markdown Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Markdown Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		255A09B428D56F2B00DA84BE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		255A09BB28D620BE00DA84BE /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		255A09BD28D620C900DA84BE /* Fragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fragment.swift; sourceTree = "<group>"; };
+		255A09BF28D620E500DA84BE /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		255A09C128D6219000DA84BE /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				255A09B428D56F2B00DA84BE /* main.swift */,
+				255A09BF28D620E500DA84BE /* Document.swift */,
+				255A09BB28D620BE00DA84BE /* Block.swift */,
+				255A09BD28D620C900DA84BE /* Fragment.swift */,
+				255A09C128D6219000DA84BE /* Element.swift */,
 			);
 			path = "Markdown Practice";
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255A09C028D620E500DA84BE /* Document.swift in Sources */,
+				255A09BE28D620C900DA84BE /* Fragment.swift in Sources */,
 				255A09B528D56F2B00DA84BE /* main.swift in Sources */,
+				255A09BC28D620BE00DA84BE /* Block.swift in Sources */,
+				255A09C228D6219000DA84BE /* Element.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
